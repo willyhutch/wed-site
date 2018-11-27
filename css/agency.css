@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Agency v5.0.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
+
 
 body {
   overflow-x: hidden;
@@ -18,7 +14,7 @@ a {
 }
 
 a:hover {
-  color: #4484ce;
+  color: #FF9900;
 }
 
 .text-primary {
@@ -71,7 +67,7 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #f19f4d;
+  background-color:#FF5C5C;
   border-color: black;
   text-shadow: 2px 2px 2px black;
 }
@@ -110,7 +106,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #FFFFa1;
 }
 
 #mainNav .navbar-toggler {
@@ -120,12 +116,12 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #FF9900;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #f19f4d;
+  color: #f19f4e;
   font-family: 'Monoton', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -133,17 +129,18 @@ img::-moz-selection {
   color: #fec503;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
+#mainNav .navbar-nav .nav-item .nav-link{
   font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: black;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fed136;
+
 }
 
 @media (min-width: 992px) {
@@ -162,11 +159,12 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
+    color: white;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #c45f00;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -713,6 +711,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   border-left :3px solid #f19f4d;
 }
 
+.bio-text{
+  border:2px solid red;
+  text-align: center;
 
-
-
+}
